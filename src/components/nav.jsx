@@ -8,12 +8,13 @@ function Nav() {
   return (
     <div className='flex justify-between items-center mt-3'>
         <Link to='/'>
-          <motion.img
-            initial={{y: -100}}
-            whileInView={{y: 0}}
-            exit={{y: -100}}
-            transition={{duration: 1}}
-            src={logo} className='w-[13vh]'/></Link>
+            <motion.img
+                initial={{y: -100}}
+                animate={{y: 0}}
+                transition={{duration: 1}}
+                src={logo} 
+                className='w-[13vh]'/>
+        </Link>
         <div className='flex gap-2'>
             <motion.span
                 initial={{x: 100}}

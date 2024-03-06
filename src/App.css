@@ -1,8 +1,17 @@
+/*Selected article style*/
+.article img{
+  width: 43%;
+  margin: 3vh;
+}
+/*icons styles*/
 .icons:hover {
   border: 6px;
   height: 5vh;
   border-color: black;
 }
+
+/*loading component styles*/
+
 .hourglassBackground {
   position: relative;
   background-color: rgb(71, 60, 60);
